@@ -15,15 +15,11 @@ html {
     scroll-behavior: smooth;
 }
 
-
 header {
-
     background-color: darkcyan;
     position: relative;
     display: flex;
-
 }
-
 
 .menu {
     list-style-type: none;
@@ -49,7 +45,6 @@ header {
     border-radius: 5px;
 }
 
-
 body {
     font-family: "Poppins", sans-serif;
     background-color: var(--background-color);
@@ -70,15 +65,11 @@ h2 a {
     font-size: 20px;
 }
 
-
-
-
 /* NAVBAR */
 nav {
     display: flex;
     justify-content: center;
     padding: 50px 50px;
-
 }
 
 nav .right a {
@@ -155,7 +146,6 @@ nav .right a span {
 .hero-section .headshot img {
     width: 350px;
     border-radius: 30%;
-
 }
 
 /* SECTION 2: Skills */
@@ -178,7 +168,6 @@ nav .right a span {
 .skills-section .text {
     text-align: center;
     margin-bottom: 25px;
-
 }
 
 #LinkedIn {
@@ -222,7 +211,6 @@ nav .right a span {
 
 .testimony-section .group .person-details p {
     font-weight: 600;
-
 }
 
 .testimony-section .group .person-details p:last-child {
@@ -232,7 +220,6 @@ nav .right a span {
 .testimony-section .group .text {
     flex: 8;
 }
-
 
 /* SECTION 4: Contact */
 .contact-section {
@@ -256,7 +243,6 @@ nav .right a span {
         align-items: center;
         justify-content: center;
         padding: 20px;
-
     }
 
     align-items: center;
@@ -317,10 +303,8 @@ nav .right a span {
     filter: brightness(0.9);
 }
 
-
 /* Footer Styling */
 footer {
-
     padding: 20px 0;
     text-align: center;
 }
@@ -333,7 +317,6 @@ footer {
     flex-wrap: wrap;
     margin-top: 15px;
     margin-bottom: 15px;
-
 }
 
 /* Gallery images */
@@ -343,8 +326,9 @@ footer {
     height: 150px;
     object-fit: cover;
     border-radius: 10px;
-
 }
+
+/* Media Queries */
 
 @media (max-width: 850px) {
 
@@ -378,6 +362,27 @@ footer {
     .contact-section .group {
         flex-direction: column;
     }
+
+    /* SECTION 2: Skills */
+    .skills-section {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px;
+        /* Slightly reduced top margin */
+        padding: 20px;
+        /* Reduced padding for mobile */
+    }
+
+    .skills-section h2 {
+        font-size: 28px;
+        /* Smaller font size for mobile */
+    }
+
+    .skills-section .text {
+        font-size: 16px;
+        /* Smaller text size */
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -392,7 +397,6 @@ footer {
     }
 
     nav .right a:last-child {
-
         background-color: transparent;
         padding: 0;
     }
@@ -412,9 +416,20 @@ footer {
 
     /* SECTION 2: Skills */
     .skills-section {
-        padding: 0 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
     }
 
+    .skills-section h2 {
+        font-size: 25px;
+        /* Further reduced font size */
+    }
+
+    .skills-section .text {
+        font-size: 14px;
+        /* Further reduced text size */
+    }
 
     /* SECTION 3: Testimony */
     .testimony-section {
