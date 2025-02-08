@@ -17,11 +17,10 @@ html {
 
 
 header {
-    background-color: #333;
-    padding: 10px;
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
+    
+    text-align: start;
+    margin-top: 50px;
+    
 }
 
 
@@ -390,7 +389,3 @@ nav .right a span {
     }
 }
 
-footer {
-    text-align: start;
-    margin-top: 50px;
-}
