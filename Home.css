@@ -392,7 +392,7 @@ footer {
     }
 
     nav .right a:last-child {
-        color: var(--text-color);
+
         background-color: transparent;
         padding: 0;
     }
@@ -415,9 +415,6 @@ footer {
         padding: 0 20px;
     }
 
-    .skills-section .cells .cell span {
-        font-size: 25px;
-    }
 
     /* SECTION 3: Testimony */
     .testimony-section {
